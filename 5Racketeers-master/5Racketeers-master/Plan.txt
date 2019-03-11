@@ -1,0 +1,17 @@
+Visualizations to make:
+- crime heatmap
+- streetlight heatmap/points
+- suggested streetlight locations*
+
+
+* This will work by:
+1. searching for points with high crime rates
+	- Geohash boston 
+	- Run through all crimes to count crimes per geohash area
+		g*n runtime
+	- For every count > threshold, that geohash location (G) is a high interest area
+2. counting streetlamps in those geohashes (within a certain threshold)
+	- For each G, calculate the streetlights within
+		G*n runtime
+3. filtering out areas with enough streetlamps already
+4. plot the center of each of those areas

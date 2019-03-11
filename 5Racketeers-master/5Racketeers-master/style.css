@@ -1,0 +1,234 @@
+body {
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.header {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px;
+    color: slategray;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 2px 4px 1px rgba(0,0,0,0.1);
+    position: fixed;
+    width: 100%;
+    height: 54px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding-left: 20px;
+    padding-top: 10px;
+    vertical-align: middle;
+    overflow: hidden;
+
+}
+
+/*ul {
+    vertical-align: top;
+    text-align: left;
+    width: 2000px;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    
+    display: inline-block;
+}*/
+
+.logo {
+    position: relative;
+}
+
+.main {
+    min-height: 400px;
+    height: 70vh;
+    position: relative;
+    padding-top: 61px;
+    padding-bottom: 5px;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+
+.contents {
+    background-color: white;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 85%;
+    margin: 0 auto;
+    flex-grow: 0;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer-text {
+    opacity: 0.6;
+}
+
+#map {
+    height: 95%;
+    width: 100%;
+}
+
+#mapcontainer {
+height: 60%;
+width: 75%;
+margin: 10px 10% 0 10%;
+}
+
+#maplookup {
+height: 100%;
+width: 100%;
+}
+
+#datadiv {
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo-div {
+    background-color: white;
+    width: 233;
+    height: 100%;
+    float: left;
+    margin-right: 15px;
+}
+
+.navigation {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; font-size: 24px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    width: 400px;
+    height: 100%;
+    float: right;
+    margin-right: 4%;
+    margin-top: 5px;
+
+}
+
+.navigation-div {
+    margin: 0;
+    width: 100px;
+    height: 100%;
+    float: right;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.navigation-div a{
+
+    text-decoration: none;
+    font-size: 20px;
+  
+    color: black;
+   /* background-color: #2e2e2e;*/
+    top: 10px;
+    padding-bottom: 9px;
+  }
+
+.navigation-div a:hover {
+    color: #808080;
+      text-shadow: 0 7px 7px rgba(0, 0, 0, 0.5);
+    }
+
+
+#instructions {
+    font-size: 110%;
+    margin: 0 10% 5px 10%;
+}
+
+#address-input {
+    width: 55%;
+    height: 25px;
+    margin: 0 0 0 10%;
+    padding: 4px 4px 4px 40px;
+    font-size: 110%;
+    color: gray;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-position: -2px -4px; 
+    background-repeat: no-repeat;
+}
+
+#address-submit {
+    margin: 5px 0 0 0;
+    width: 10%;
+    height: 30px;
+}
+
+/* Map Style Buttons */
+
+
+.map-control {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 2px rgba(33, 33, 33, 0.4);
+    font-family: 'Roboto','sans-serif';
+    margin: 10px;
+    /* Hide the control initially, to prevent it from appearing
+       before the map loads. */
+    display: none;
+  }
+  /* Display the control once it is inside the map. */
+  #map .map-control { display: block; }
+
+  .selector-control {
+    font-size: 14px;
+    line-height: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+
+  #floating-panel {
+    position: absolute;
+    top: 10px;
+    left: 25%;
+    z-index: 5;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #999;
+    text-align: center;
+    font-family: 'Roboto','sans-serif';
+    line-height: 30px;
+    padding-left: 10px;
+  }
+  #floating-panel {
+    background-color: #fff;
+    border: 1px solid #999;
+    left: 25%;
+    padding: 5px;
+    position: absolute;
+    top: 10px;
+    z-index: 5;
+  }
+
+#datadiv {
+    font-size: 150%;
+    text-align: center;
+}
+
+#datadiv p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 5px;
+}
+
+#datadiv h2 {
+    font-size: 50%;
+    text-align: center;
+    color: gray;
+}
